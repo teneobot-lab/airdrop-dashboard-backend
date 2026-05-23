@@ -14,7 +14,7 @@ const ACTION_TYPES: { value: ActionType | 'all'; label: string }[] = [
   { value: 'update_project', label: 'Updated Project' },
   { value: 'update_wallet', label: 'Updated Wallet' },
   { value: 'delete', label: 'Deleted' },
-  { value: 'link_wallet', label: 'Linked Wallet' },
+  { value: 'add_project', label: 'Linked Wallet' },
 ];
 
 export const Activity: React.FC = () => {
